@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class car {
+    public:
+    string brand;
+    string model;
+
+    void displayinfo() {
+        cout << " This motor is " << brand << " with model " << model << endl;
+    }
+};
+
+int main() {
+    car car1;
+    car1.brand = "R15 " ;
+    car1.model = "150 a" ;
+    car1.displayinfo();
+    return 0;
+}
